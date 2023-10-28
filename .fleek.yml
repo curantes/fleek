@@ -19,9 +19,11 @@ name: Fleek Configuration
 overlays: {}
 packages:
     - helix
+    - go
 paths:
     - $HOME/bin
     - $HOME/.local/bin
+    - $HOME/go/bin
 programs:
     - dircolors
 shell: bash
