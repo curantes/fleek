@@ -23,9 +23,11 @@ packages:
     - dockerfile-language-server-nodejs
     - nil
     - nixpkgs-fmt
+    - go
 paths:
     - $HOME/bin
     - $HOME/.local/bin
+    - $HOME/go/bin
 programs:
     - dircolors
     - helix

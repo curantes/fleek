@@ -25,6 +25,7 @@
     pkgs.dockerfile-language-server-nodejs
     pkgs.nil
     pkgs.nixpkgs-fmt
+    pkgs.go
     # Fleek Bling
     pkgs.git
     pkgs.htop
