@@ -25,6 +25,7 @@
     pkgs.ansible-language-server
     pkgs.dockerfile-language-server-nodejs
     pkgs.nil
+    pkgs.nixpkgs-fmt
     # Fleek Bling
     pkgs.git
     pkgs.htop

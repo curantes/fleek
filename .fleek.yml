@@ -23,6 +23,7 @@ packages:
     - ansible-language-server
     - dockerfile-language-server-nodejs
     - nil
+    - nixpkgs-fmt
 paths:
     - $HOME/bin
     - $HOME/.local/bin
