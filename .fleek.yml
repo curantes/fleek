@@ -20,6 +20,7 @@ overlays: {}
 packages:
     - helix
     - yaml-language-server
+    - ansible-language-server
 paths:
     - $HOME/bin
     - $HOME/.local/bin

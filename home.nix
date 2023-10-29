@@ -22,6 +22,7 @@
     # user selected packages
     pkgs.helix
     pkgs.yaml-language-server
+    pkgs.ansible-language-server
     # Fleek Bling
     pkgs.git
     pkgs.htop
