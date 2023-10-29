@@ -21,6 +21,7 @@
   home.packages = [
     # user selected packages
     pkgs.helix
+    pkgs.yaml-language-server
     # Fleek Bling
     pkgs.git
     pkgs.htop
