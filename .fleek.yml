@@ -19,11 +19,9 @@ name: Fleek Configuration
 overlays: {}
 packages:
     - helix
-    - go
 paths:
     - $HOME/bin
     - $HOME/.local/bin
-    - $HOME/go/bin
 programs:
     - dircolors
 shell: bash
@@ -35,8 +33,8 @@ systems:
       user:
         email: matthias.eliasson@gmail.com
         name: Matthias Eliasson
-        ssh_private_key_file: ""
-        ssh_public_key_file: ""
+        ssh_private_key_file: ~/.ssh/id_ed25519
+        ssh_public_key_file: ~/.ssh/id_ed25519.pub
         username: curantes
       username: curantes
 track: nixos-unstable
