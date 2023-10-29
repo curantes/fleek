@@ -23,6 +23,7 @@
     pkgs.helix
     pkgs.yaml-language-server
     pkgs.ansible-language-server
+    pkgs.dockerfile-language-server-nodejs
     # Fleek Bling
     pkgs.git
     pkgs.htop

@@ -21,6 +21,7 @@ packages:
     - helix
     - yaml-language-server
     - ansible-language-server
+    - dockerfile-language-server-nodejs
 paths:
     - $HOME/bin
     - $HOME/.local/bin
