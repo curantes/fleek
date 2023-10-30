@@ -17,6 +17,23 @@
     sync = "!git pull && sync_server";
     rb = "!f() { git fetch origin \"$1\" && git rebase FETCH_HEAD;}; f";
   };
+  programs.git.delta.options = {
+    navigate = true;
+    line-numbers = true;
+    syntax-theme = "Solarized (dark)";
+    width = 1;
+    minus-style = "syntax \"#450a15\"";
+    minus-emph-style = "syntax \"#600818\"";
+    plus-style = "syntax \"#0b4820\"";
+    plus-emph-style = "syntax \"#175c2e\"";
+    hunk-header-style = "syntax bold";
+    hunk-header-decoration-style = "omit";
+    file-style = "yellow italic";
+    file-decoration-style = "yellow ul";
+    line-numbers-zero-style = "#4b5263";
+    line-numbers-left-format = "{nm:^4} ";
+    line-numbers-right-format = "{np:^4} ";
+  };
   programs.helix.defaultEditor = true;
   programs.helix.settings = {
     theme = "solarized_dark";
