@@ -1,7 +1,6 @@
 { pkgs, misc, ... }: {
   # FEEL FREE TO EDIT: This file is NOT managed by fleek. 
   programs.alacritty.settings = {
-    {
     window = {
       "dynamic_title" = true;
       padding = { x = 2; y = 2; };
@@ -67,9 +66,8 @@
       history = 10000;
     };
   };
-};
-programs.helix.defaultEditor = true;
-programs.helix.settings = {
-theme = "solarized_dark";
-};
+  programs.helix.defaultEditor = true;
+  programs.helix.settings = {
+    theme = "solarized_dark";
+  };
 }
