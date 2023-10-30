@@ -15,12 +15,14 @@ let
   '';
 in
 {
-  # ...
+  # This file will never be modified by fleek
+  # configs mentioned here must be listed in ~/fleek.yml #programs array or you will get errors
+  # home manager options available here: https://nix-community.github.io/home-manager/options.html
+
   home.packages = [
-    nixgl.auto.nixGLDefault
     (nixGLWrap pkgs.alacritty)
-    # ...
   ];
+
   # FEEL FREE TO EDIT: This file is NOT managed by fleek. 
   programs.alacritty.settings = {
     window = {
