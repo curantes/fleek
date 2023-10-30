@@ -54,7 +54,9 @@
     "nixgl": {
       "inputs": {
         "flake-utils": "flake-utils",
-        "nixpkgs": "nixpkgs_2"
+        "nixpkgs": [
+          "nixpkgs"
+        ]
       },
       "locked": {
         "lastModified": 1685908677,
@@ -88,21 +90,6 @@
     },
     "nixpkgs_2": {
       "locked": {
-        "lastModified": 1698695369,
-        "narHash": "sha256-TAekuz/IrPJ7P3tGzNjU66VaO8ImwmDRKEkQt7LOolI=",
-        "owner": "nixos",
-        "repo": "nixpkgs",
-        "rev": "3b8a1a7a70b528c6dd31b160fd7ad3b32d983dbf",
-        "type": "github"
-      },
-      "original": {
-        "owner": "nixos",
-        "repo": "nixpkgs",
-        "type": "github"
-      }
-    },
-    "nixpkgs_3": {
-      "locked": {
         "lastModified": 1698318101,
         "narHash": "sha256-gUihHt3yPD7bVqg+k/UVHgngyaJ3DMEBchbymBMvK1E=",
         "owner": "nixos",
@@ -122,7 +109,7 @@
         "fleek": "fleek",
         "home-manager": "home-manager",
         "nixgl": "nixgl",
-        "nixpkgs": "nixpkgs_3"
+        "nixpkgs": "nixpkgs_2"
       }
     }
   },

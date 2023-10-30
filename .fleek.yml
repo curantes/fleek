@@ -16,10 +16,7 @@ git:
     enabled: true
 min_version: 0.8.4
 name: Fleek Configuration
-overlays:
-    nixgl:
-        url: github:guibou/nixGL
-        follow: true
+overlays: {}
 packages:
     - ansible-language-server
     - dockerfile-language-server-nodejs
@@ -32,7 +29,6 @@ paths:
     - $HOME/.local/bin
     - $HOME/go/bin
 programs:
-    - alacritty
     - dircolors
     - helix
 shell: bash
