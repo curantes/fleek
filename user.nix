@@ -57,8 +57,6 @@
       browser = "google-chrome-stable";
     };
   };
-  programs.git.userEmail = "matthias.eliasson@gmail.com";
-  programs.git.userName = "Matthias Eliasson";
   programs.helix.defaultEditor = true;
   programs.helix.settings = {
     theme = "solarized_dark";
