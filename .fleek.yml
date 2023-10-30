@@ -31,6 +31,7 @@ paths:
 programs:
     - dircolors
     - git
+    - git.delta
     - helix
 shell: bash
 systems:
