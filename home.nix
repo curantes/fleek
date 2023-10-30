@@ -27,7 +27,6 @@
     pkgs.nixpkgs-fmt
     pkgs.yaml-language-server
     # Fleek Bling
-    pkgs.git
     pkgs.htop
     pkgs.github-cli
     pkgs.glab
