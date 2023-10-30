@@ -14,6 +14,7 @@
 
   # User specified programs 
     programs.dircolors.enable = true; 
+    programs.git.enable = true; 
     programs.helix.enable = true;
 
 }

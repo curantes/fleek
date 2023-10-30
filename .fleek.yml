@@ -30,6 +30,7 @@ paths:
     - $HOME/go/bin
 programs:
     - dircolors
+    - git
     - helix
 shell: bash
 systems:
