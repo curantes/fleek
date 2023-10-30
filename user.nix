@@ -1,4 +1,29 @@
-{ pkgs, misc, ... }: {
+{ pkgs, misc, config, lib, ... }:
+let
+  # ...
+  nixgl = import <nixgl> { };
+  nixGLWrap = pkg: pkgs.runCommand "${pkg.name}-nixgl-wrapper" { } ''
+    mkdir $out
+    ln -s ${pkg}/* $out
+    rm $out/bin
+    mkdir $out/bin
+    for bin in ${pkg}/bin/*; do
+     wrapped_bin=$out/bin/$(basename $bin)
+     echo "exec ${lib.getExe nixgl.auto.nixGLDefault} $bin \$@" > $wrapped_bin
+     chmod +x $wrapped_bin
+    done
+  '';
+in
+{
+  # ...
+  home.packages = [
+    nixgl.auto.nixGLDefault
+    (nixGLWrap pkgs.alacritty)
+    # ...
+  ];
+}
+
+{
   # FEEL FREE TO EDIT: This file is NOT managed by fleek. 
   programs.alacritty.settings = {
     window = {
