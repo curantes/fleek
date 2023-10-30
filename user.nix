@@ -21,9 +21,6 @@ in
     (nixGLWrap pkgs.alacritty)
     # ...
   ];
-}
-
-{
   # FEEL FREE TO EDIT: This file is NOT managed by fleek. 
   programs.alacritty.settings = {
     window = {
