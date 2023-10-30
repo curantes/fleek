@@ -19,7 +19,6 @@ name: Fleek Configuration
 overlays:
     nixgl:
         url: github:guibou/nixGL
-        follow: true
 packages:
     - ansible-language-server
     - dockerfile-language-server-nodejs
