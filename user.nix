@@ -37,7 +37,6 @@
   programs.git.extraConfig = {
     core = {
       excludesfile = "/home/curantes/.gitignore";
-      pager = "delta";
     };
     push = {
       default = "simple";
