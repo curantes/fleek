@@ -20,12 +20,12 @@
   # programs are installed and configuration applied to dotfiles
   home.packages = [
     # user selected packages
-    pkgs.yaml-language-server
     pkgs.ansible-language-server
     pkgs.dockerfile-language-server-nodejs
+    pkgs.go
     pkgs.nil
     pkgs.nixpkgs-fmt
-    pkgs.go
+    pkgs.yaml-language-server
     # Fleek Bling
     pkgs.git
     pkgs.htop

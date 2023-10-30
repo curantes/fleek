@@ -13,6 +13,7 @@
     programs.starship.enable = true;
 
   # User specified programs 
+    programs.alacritty.enable = true; 
     programs.dircolors.enable = true; 
     programs.helix.enable = true;
 
