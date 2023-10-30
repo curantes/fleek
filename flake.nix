@@ -15,6 +15,9 @@
 
     # Overlays
     
+    nixgl.url = "github:guibou/nixGL";
+    nixgl.inputs.nixpkgs.follows = "nixpkgs";
+    
 
   };
 
@@ -46,7 +49,7 @@
             ];
           }
           ({
-           nixpkgs.overlays = [];
+           nixpkgs.overlays = [inputs.nixgl.overlay ];
           })
 
         ];

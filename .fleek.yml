@@ -16,7 +16,10 @@ git:
     enabled: true
 min_version: 0.8.4
 name: Fleek Configuration
-overlays: {}
+overlays:
+    nixgl:
+        url: github:guibou/nixGL
+        follow: true
 packages:
     - ansible-language-server
     - dockerfile-language-server-nodejs
