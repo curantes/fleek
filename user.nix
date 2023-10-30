@@ -35,8 +35,20 @@
     width = 1;
   };
   programs.git.extraConfig = {
+    credential = {
+      helper = "cache --timeout 3600";
+    };
     core = {
       excludesfile = "/home/curantes/.gitignore";
+    };
+    diff = {
+      colorMoved = "default";
+    };
+    merge = {
+      conflictstyle = "diff3";
+    };
+    pull = {
+      rebase = true;
     };
     push = {
       default = "simple";
