@@ -57,5 +57,14 @@
       browser = "google-chrome-stable";
     };
   };
-  programs.neovim.defaultEditor = true;
+  programs.neovim = {
+    defaultEditor = true;
+    extraConfig = lib.fileContents ~/git/jonaz-dotfiles/nvim/init.vim;
+    plugins = [
+      pkgs.vimPlugins.nvim-treesitter.withAllGrammars
+      vimPlugins.nvim-treesitter
+    ];
+    viAlias = true;
+    vimAlias = true;
+  };
 }
