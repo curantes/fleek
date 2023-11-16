@@ -26,6 +26,7 @@
     pkgs.nil
     pkgs.nixpkgs-fmt
     pkgs.yaml-language-server
+    pkgs.nodejs
     # Fleek Bling
     pkgs.git
     pkgs.htop
