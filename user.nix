@@ -62,7 +62,7 @@
     #extraConfig = lib.fileContents ~/git/jonaz-dotfiles/nvim/init.vim;
     plugins = [
       pkgs.vimPlugins.nvim-treesitter.withAllGrammars
-      vimPlugins.nvim-treesitter
+      pkgs.vimPlugins.nvim-treesitter
       {
         plugin = pkgs.vimPlugins.vim-startify;
         config = "let g:startify_change_to_vcs_root = 0";
