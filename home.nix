@@ -28,6 +28,7 @@
     pkgs.yaml-language-server
     pkgs.nodejs
     pkgs.typescript
+    pkgs.nodePackages.typescript-language-server
     # Fleek Bling
     pkgs.git
     pkgs.htop
