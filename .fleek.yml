@@ -6,7 +6,7 @@ allow_broken: false
 auto_gc: true
 bling: high
 blocklist: []
-byo_git: true
+byo_git: false
 ejected: false
 flakedir: .local/share/fleek
 git:
