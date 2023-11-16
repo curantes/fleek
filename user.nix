@@ -57,8 +57,5 @@
       browser = "google-chrome-stable";
     };
   };
-  programs.helix.defaultEditor = true;
-  programs.helix.settings = {
-    theme = "solarized_dark";
-  };
+  programs.neovim.defaultEditor = true;
 }

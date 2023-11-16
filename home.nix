@@ -25,10 +25,22 @@
     pkgs.go
     pkgs.nil
     pkgs.nixpkgs-fmt
-    pkgs.yaml-language-server
-    pkgs.nodejs
-    pkgs.typescript
+    pkgs.nodePackages.bash-language-server
+    pkgs.nodePackages.pyright
     pkgs.nodePackages.typescript-language-server
+    pkgs.nodePackages.vim-language-server
+    pkgs.php
+    pkgs.php82Extensions.curl
+    pkgs.php82Extensions.gd
+    pkgs.php82Extensions.gettext
+    pkgs.php82Extensions.pgsql
+    pkgs.php82Extensions.redis
+    pkgs.php82Extensions.xml
+    pkgs.php82Extensions.zip
+    pkgs.ripgrep
+    pkgs.shellcheck
+    pkgs.typescript
+    pkgs.yaml-language-server
     # Fleek Bling
     pkgs.git
     pkgs.htop

@@ -23,19 +23,31 @@ packages:
     - go
     - nil
     - nixpkgs-fmt
-    - yaml-language-server
-    - nodejs
-    - typescript
+    - nodePackages.bash-language-server
+    - nodePackages.pyright
     - nodePackages.typescript-language-server
+    - nodePackages.vim-language-server
+    - php
+    - php82Extensions.curl
+    - php82Extensions.gd
+    - php82Extensions.gettext
+    - php82Extensions.pgsql
+    - php82Extensions.redis
+    - php82Extensions.xml
+    - php82Extensions.zip
+    - ripgrep
+    - shellcheck
+    - typescript
+    - yaml-language-server
 paths:
-    - $HOME/bin
     - $HOME/.local/bin
+    - $HOME/bin
     - $HOME/go/bin
 programs:
     - dircolors
     - git
     - git.delta
-    - helix
+    - neovim
 shell: bash
 systems:
     - arch: x86_64

@@ -16,6 +16,6 @@
     programs.dircolors.enable = true; 
     programs.git.enable = true; 
     programs.git.delta.enable = true; 
-    programs.helix.enable = true;
+    programs.neovim.enable = true;
 
 }
