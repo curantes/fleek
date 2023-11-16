@@ -24,7 +24,6 @@ packages:
     - nil
     - nixpkgs-fmt
     - yaml-language-server
-    - htop
 paths:
     - $HOME/bin
     - $HOME/.local/bin
@@ -41,11 +40,11 @@ systems:
       hostname: fedora
       os: linux
       user:
-        email: matthias.eliasson@gmail.com
-        name: Matthias Eliasson
-        ssh_private_key_file: ~/.ssh/id_ed25519
-        ssh_public_key_file: ~/.ssh/id_ed25519.pub
-        username: curantes
+          email: matthias.eliasson@gmail.com
+          name: Matthias Eliasson
+          ssh_private_key_file: ~/.ssh/id_ed25519
+          ssh_public_key_file: ~/.ssh/id_ed25519.pub
+          username: curantes
       username: curantes
 track: nixos-unstable
 unfree: true
