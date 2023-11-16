@@ -59,7 +59,7 @@
   };
   programs.neovim = {
     defaultEditor = true;
-    #extraConfig = lib.fileContents ~/git/jonaz-dotfiles/nvim/init.vim;
+    extraConfig = lib.fileContents ~/git/jonaz-dotfiles/nvim/init.vim;
     plugins = [
       pkgs.vimPlugins.nvim-treesitter.withAllGrammars
       pkgs.vimPlugins.nvim-treesitter
