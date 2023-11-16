@@ -52,7 +52,6 @@
     pkgs.lazygit
     pkgs.jq
     pkgs.yq-go
-    pkgs.neovim
     pkgs.neofetch
     pkgs.btop
     pkgs.cheat

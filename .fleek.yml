@@ -5,7 +5,8 @@ aliases:
 allow_broken: false
 auto_gc: true
 bling: high
-blocklist: []
+blocklist:
+    - neovim
 byo_git: false
 ejected: false
 flakedir: .local/share/fleek
