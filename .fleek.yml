@@ -1,7 +1,7 @@
 aliases:
-    fleeks: cd ~/.local/share/fleek
-    latest-fleek-version: nix run https://getfleek.dev/latest.tar.gz -- version
-    update-fleek: nix run https://getfleek.dev/latest.tar.gz -- update
+  fleeks: cd ~/.local/share/fleek
+  latest-fleek-version: nix run https://getfleek.dev/latest.tar.gz -- version
+  update-fleek: nix run https://getfleek.dev/latest.tar.gz -- update
 allow_broken: false
 auto_gc: true
 bling: high
@@ -10,42 +10,42 @@ byo_git: false
 ejected: false
 flakedir: .local/share/fleek
 git:
-    autocommit: true
-    autopull: true
-    autopush: true
-    enabled: true
+  autocommit: true
+  autopull: true
+  autopush: true
+  enabled: true
 min_version: 0.8.4
 name: Fleek Configuration
 overlays: {}
 packages:
-    - ansible-language-server
-    - dockerfile-language-server-nodejs
-    - go
-    - nil
-    - nixpkgs-fmt
-    - yaml-language-server
+  - ansible-language-server
+  - dockerfile-language-server-nodejs
+  - go
+  - nil
+  - nixpkgs-fmt
+  - yaml-language-server
 paths:
-    - $HOME/bin
-    - $HOME/.local/bin
-    - $HOME/go/bin
+  - $HOME/bin
+  - $HOME/.local/bin
+  - $HOME/go/bin
 programs:
-    - dircolors
-    - git
-    - git.delta
-    - helix
+  - dircolors
+  - git
+  - git.delta
+  - helix
 shell: bash
 systems:
-    - arch: x86_64
-      home: ""
-      hostname: fedora
-      os: linux
-      user:
-          email: matthias.eliasson@gmail.com
-          name: Matthias Eliasson
-          ssh_private_key_file: ~/.ssh/id_ed25519
-          ssh_public_key_file: ~/.ssh/id_ed25519.pub
-          username: curantes
+  - arch: x86_64
+    home: ""
+    hostname: fedora
+    os: linux
+    user:
+      email: matthias.eliasson@gmail.com
+      name: Matthias Eliasson
+      ssh_private_key_file: ~/.ssh/id_ed25519
+      ssh_public_key_file: ~/.ssh/id_ed25519.pub
       username: curantes
+    username: curantes
 track: nixos-unstable
 unfree: true
 users: []
